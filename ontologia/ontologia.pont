@@ -1,0 +1,416 @@
+; Mon Dec 12 17:43:26 CET 2016
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+
+(defclass %3ACLIPS_TOP_LEVEL_SLOT_CLASS "Fake class to save top-level slot information"
+	(is-a USER)
+	(role abstract)
+	(single-slot valor_relevancia
+		(type INTEGER)
+		(range 0 10)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot relevanciaAutor
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombreVisita
+		(type STRING)
+		(default "Visitante")
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot minutoPorObra
+		(type FLOAT)
+		(default 0.0)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot zonaGeografica
+		(type SYMBOL)
+		(allowed-values Espana Italia Noruega Holanda Francia Alemania Mexico EstadosUnidos Austria Rusia)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot ano
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot relevancia_obra
+		(type INSTANCE)
+;+		(allowed-classes)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot obrasSala
+		(type INSTANCE)
+;+		(allowed-classes Obra)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot tipoVisita
+		(type SYMBOL)
+		(allowed-values individual grupoPequeno grupoGrande)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot aptaNinos
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Ontology_Class80028
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(multislot Salas
+		(type INSTANCE)
+;+		(allowed-classes Sala)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot nomSala
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombreSala
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot dimensiones_m2
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombreObra
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot solucion
+		(type INSTANCE)
+;+		(allowed-classes)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Ontology_Class80030
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot ano_inicio
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombreEpoca
+		(type SYMBOL)
+		(allowed-values Barroco Gotico Renacimiento Neoclasico Romanticismo Impresionismo Realismo Romanico Surrealismo Cubismo PopArt Expresionismo Simbolismo)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot salas
+		(type INSTANCE)
+;+		(allowed-classes Sala)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot horasVisitaPorDia
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot tiempoObra
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Ontology_Class60001
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot autor
+		(type INSTANCE)
+;+		(allowed-classes Autor)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot autores
+		(type INSTANCE)
+;+		(allowed-classes Autor)
+		(create-accessor read-write))
+	(single-slot conocimientoVisita
+		(type INTEGER)
+		(range 0 10)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot obrasDeArte
+		(type INSTANCE)
+;+		(allowed-classes Obra)
+		(create-accessor read-write))
+	(single-slot diasVisita
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot obrasAutor
+		(type INSTANCE)
+;+		(allowed-classes Obra)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot solucionParcial
+		(type INSTANCE)
+;+		(allowed-classes SolucionObra)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(multislot obras
+		(type INSTANCE)
+;+		(allowed-classes Obra)
+		(create-accessor read-write))
+	(multislot solucionsSala
+		(type INSTANCE)
+;+		(allowed-classes SolucionSala)
+		(create-accessor read-write))
+	(multislot solucionsObra
+		(type INSTANCE)
+;+		(allowed-classes SolucionObra)
+		(create-accessor read-write))
+	(single-slot tema
+		(type SYMBOL)
+		(allowed-values Retrato Paisaje NaturalezaMuerta Religion Mitologia Historia Animales)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot ninos
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot obra
+		(type INSTANCE)
+;+		(allowed-classes Obra)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot ano_fin
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot salaObra
+		(type INSTANCE)
+;+		(allowed-classes Sala)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot solucionsDiaries
+		(type INSTANCE)
+;+		(allowed-classes SolucionDiaria)
+		(create-accessor read-write))
+	(multislot tematica
+		(type SYMBOL)
+		(allowed-values Paisaje Retrato NaturalezaMuerta Religion Historica Mitologia)
+		(create-accessor read-write))
+	(single-slot museo
+		(type INSTANCE)
+;+		(allowed-classes)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot relevancia_autor
+		(type INSTANCE)
+;+		(allowed-classes)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot relevanciaObra
+		(type INTEGER)
+		(range 0 10)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot zonaGeo
+		(type STRING)
+;+		(cardinality 0 1)
+		(create-accessor read-write))
+	(single-slot epoca
+		(type SYMBOL)
+		(allowed-values Barroco Gotico Renacimiento Neoclasico Romanticismo Impresionismo Realismo Otros Romanico Surrealismo Cubismo PopArt)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Ciudad
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot solucionDiaria
+		(type INSTANCE)
+;+		(allowed-classes SolucionDiaria)
+		(cardinality 1 ?VARIABLE)
+		(create-accessor read-write))
+	(single-slot grupo
+		(type INSTANCE)
+;+		(allowed-classes Visita)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot caracteristicasSala
+		(type INSTANCE)
+;+		(allowed-classes Caracteristica)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot Nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot caracteristicas
+		(type INSTANCE)
+;+		(allowed-classes Caracteristica)
+		(create-accessor read-write))
+	(multislot solucionesParciales
+		(type INSTANCE)
+;+		(allowed-classes SolucionObra)
+		(create-accessor read-write)))
+
+(defclass Autor "Informacion necesaria para un autor, puede ir relacionado con sus caracteristicas"
+	(is-a USER)
+	(role concrete)
+	(single-slot relevanciaAutor
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombre
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Sala "Tiene un conjunto de obras de arte. Puede reunir obras con caracteristicas concretas."
+	(is-a USER)
+	(role concrete)
+	(single-slot nombreSala
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Obra "Informacion necesaria para una obra de arte, va relacionada con las salas en las que aparece, con sus caracteristicas y con su autor"
+	(is-a USER)
+	(role concrete)
+	(single-slot autor
+		(type INSTANCE)
+;+		(allowed-classes Autor)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot aptaNinos
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot salaObra
+		(type INSTANCE)
+;+		(allowed-classes Sala)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot caracteristicas
+		(type INSTANCE)
+;+		(allowed-classes Caracteristica)
+		(create-accessor read-write))
+	(single-slot relevanciaObra
+		(type INTEGER)
+		(range 0 10)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot dimensiones_m2
+		(type FLOAT)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombreObra
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Visita "Define los elementos necesarios y la informacion para una visita"
+	(is-a USER)
+	(role concrete)
+	(single-slot conocimientoVisita
+		(type INTEGER)
+		(range 0 10)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot nombreVisita
+		(type STRING)
+		(default "Visitante")
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(multislot solucionsDiaries
+		(type INSTANCE)
+;+		(allowed-classes SolucionDiaria)
+		(create-accessor read-write))
+	(single-slot horasVisitaPorDia
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot diasVisita
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot tipoVisita
+		(type SYMBOL)
+		(allowed-values individual grupoPequeno grupoGrande)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot ninos
+		(type SYMBOL)
+		(allowed-values FALSE TRUE)
+		(default FALSE)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Caracteristica "Reune las caracteristicas de arte concretas que puede ser relacionada con una obra de arte o con un visitante o un grupo de visitantes"
+	(is-a USER)
+	(role concrete))
+
+(defclass Tematica
+	(is-a Caracteristica)
+	(role concrete)
+	(single-slot tema
+		(type SYMBOL)
+		(allowed-values Retrato Paisaje NaturalezaMuerta Religion Mitologia Historia Animales)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass Epoca
+	(is-a Caracteristica)
+	(role concrete)
+	(single-slot nombreEpoca
+		(type SYMBOL)
+		(allowed-values Barroco Gotico Renacimiento Neoclasico Romanticismo Impresionismo Realismo Romanico Surrealismo Cubismo PopArt Expresionismo Simbolismo)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass ZonaGeografica
+	(is-a Caracteristica)
+	(role concrete)
+	(single-slot zonaGeografica
+		(type SYMBOL)
+		(allowed-values Espana Italia Noruega Holanda Francia Alemania Mexico EstadosUnidos Austria Rusia)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass SolucionObra "Indica la cantidad de tiempo a dedicar a una obra concreta de la solucion"
+	(is-a USER)
+	(role concrete)
+	(single-slot obra
+		(type INSTANCE)
+;+		(allowed-classes Obra)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot tiempoObra
+		(type INTEGER)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))
+
+(defclass SolucionDiaria "Conjunto de cuadros y sus tiempos de exposicion, basada en una solucion parcial"
+	(is-a USER)
+	(role concrete)
+	(multislot solucionsSala
+		(type INSTANCE)
+;+		(allowed-classes SolucionSala)
+		(create-accessor read-write)))
+
+(defclass SolucionSala "Conte totes les solucions parcials per a la sala amb \"nomsala\""
+	(is-a USER)
+	(role concrete)
+	(multislot solucionsObra
+		(type INSTANCE)
+;+		(allowed-classes SolucionObra)
+		(create-accessor read-write))
+	(single-slot nomSala
+		(type STRING)
+;+		(cardinality 1 1)
+		(create-accessor read-write))
+	(single-slot minutoPorObra
+		(type FLOAT)
+		(default 0.0)
+;+		(cardinality 1 1)
+		(create-accessor read-write)))

@@ -1,0 +1,1190 @@
+; Mon Dec 12 17:43:26 CET 2016
+; 
+;+ (version "3.5")
+;+ (build "Build 663")
+
+([Ontology_Class0] of  Autor
+
+	(nombre "Diego Velazquez")
+	(relevanciaAutor 10))
+
+([Ontology_Class1] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class10005])
+	(caracteristicas
+		[Ontology_Class70021]
+		[Ontology_Class70025])
+	(dimensiones_m2 4.44)
+	(nombreObra "Los tres musicos")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20036]))
+
+([Ontology_Class10000] of  Autor
+
+	(nombre "Jan Van Eyck")
+	(relevanciaAutor 6))
+
+([Ontology_Class10001] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class0])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70012]
+		[Ontology_Class70025])
+	(dimensiones_m2 8.77)
+	(nombreObra "Las meninas")
+	(relevanciaObra 9)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class10002] of  Caracteristica
+)
+
+([Ontology_Class10005] of  Autor
+
+	(nombre "Pablo Picasso")
+	(relevanciaAutor 8))
+
+([Ontology_Class10007] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class10005])
+	(caracteristicas
+		[Ontology_Class70021]
+		[Ontology_Class70012]
+		[Ontology_Class70025])
+	(dimensiones_m2 26.95)
+	(nombreObra "Guernica")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20036]))
+
+([Ontology_Class10021] of  Autor
+
+	(nombre "Rembrandt")
+	(relevanciaAutor 10))
+
+([Ontology_Class10022] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class10021])
+	(caracteristicas
+		[Ontology_Class70029]
+		[Ontology_Class70024])
+	(dimensiones_m2 3.69)
+	(nombreObra "Leccion de anatomia del Dr. Nicolaes Tulp")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class20000] of  Caracteristica
+)
+
+([Ontology_Class20001] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class10000])
+	(caracteristicas
+		[Ontology_Class70015]
+		[Ontology_Class70029]
+		[Ontology_Class70008])
+	(dimensiones_m2 0.492)
+	(nombreObra "El matrimonio Arnolfini")
+	(relevanciaObra 6)
+	(salaObra [Ontology_Class30003]))
+
+([Ontology_Class20003] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class0])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70012]
+		[Ontology_Class70029]
+		[Ontology_Class70025])
+	(dimensiones_m2 11.26)
+	(nombreObra "La rendicion de Breda")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class20004] of  Autor
+
+	(nombre "Leonardo Da Vinci")
+	(relevanciaAutor 10))
+
+([Ontology_Class20005] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20004])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70008]
+		[Ontology_Class70026])
+	(dimensiones_m2 0.401)
+	(nombreObra "La Gioconda (La Mona Lisa)")
+	(relevanciaObra 10)
+	(salaObra [Ontology_Class3]))
+
+([Ontology_Class20006] of  Caracteristica
+)
+
+([Ontology_Class20007] of  Autor
+
+	(nombre "Vincent Van Gogh")
+	(relevanciaAutor 10))
+
+([Ontology_Class20008] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20007])
+	(caracteristicas
+		[Ontology_Class70019]
+		[Ontology_Class70009]
+		[Ontology_Class70029])
+	(dimensiones_m2 0.68)
+	(nombreObra "La noche estrellada")
+	(relevanciaObra 10)
+	(salaObra [Ontology_Class20035]))
+
+([Ontology_Class20010] of  Autor
+
+	(nombre "Edvard Munch")
+	(relevanciaAutor 7))
+
+([Ontology_Class20011] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class20010])
+	(caracteristicas
+		[Ontology_Class70031]
+		[Ontology_Class70027])
+	(dimensiones_m2 0.67)
+	(nombreObra "El Grito")
+	(relevanciaObra 10)
+	(salaObra [Ontology_Class3]))
+
+([Ontology_Class20013] of  Autor
+
+	(nombre "Salvador Dali")
+	(relevanciaAutor 8))
+
+([Ontology_Class20014] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20013])
+	(caracteristicas
+		[Ontology_Class70032]
+		[Ontology_Class70010]
+		[Ontology_Class70025])
+	(dimensiones_m2 0.08)
+	(nombreObra "La persistencia de la memoria")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20036]))
+
+([Ontology_Class20016] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20007])
+	(caracteristicas
+		[Ontology_Class70019]
+		[Ontology_Class70008]
+		[Ontology_Class70029])
+	(dimensiones_m2 0.124)
+	(nombreObra "Autorretrato (Sin Barba)")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20035]))
+
+([Ontology_Class20018] of  Autor
+
+	(nombre "C.M. Coolidge")
+	(relevanciaAutor 5))
+
+([Ontology_Class20019] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20018])
+	(caracteristicas [Ontology_Class70028])
+	(dimensiones_m2 2.35)
+	(nombreObra "Perros jugando al Poquer")
+	(relevanciaObra 5)
+	(salaObra [Ontology_Class20033]))
+
+([Ontology_Class20021] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20004])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70011]
+		[Ontology_Class70026])
+	(dimensiones_m2 40.48)
+	(nombreObra "La ultima cena")
+	(relevanciaObra 10)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class20022] of  Caracteristica
+)
+
+([Ontology_Class20023] of  Autor
+
+	(nombre "Miguel Angel")
+	(relevanciaAutor 9))
+
+([Ontology_Class20024] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20023])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70011]
+		[Ontology_Class70026])
+	(dimensiones_m2 16.0)
+	(nombreObra "La creacion de Adan")
+	(relevanciaObra 9)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class20025] of  Autor
+
+	(nombre "Daniel Alcocer")
+	(relevanciaAutor 4))
+
+([Ontology_Class20026] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class20025])
+	(caracteristicas
+		[Ontology_Class70022]
+		[Ontology_Class70011]
+		[Ontology_Class70012]
+		[Ontology_Class70025])
+	(dimensiones_m2 0.88)
+	(nombreObra "Garabatos sobre papel")
+	(relevanciaObra 2)
+	(salaObra [Ontology_Class20033]))
+
+([Ontology_Class20027] of  Autor
+
+	(nombre "Joel Borras")
+	(relevanciaAutor 4))
+
+([Ontology_Class20028] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20027])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70010]
+		[Ontology_Class70025]
+		[Ontology_Class70012])
+	(dimensiones_m2 6.9)
+	(nombreObra "Los meninos")
+	(relevanciaObra 4)
+	(salaObra [Ontology_Class20033]))
+
+([Ontology_Class20029] of  Autor
+
+	(nombre "Victor Busque")
+	(relevanciaAutor 3))
+
+([Ontology_Class20030] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20029])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70011]
+		[Ontology_Class70025])
+	(dimensiones_m2 2.31)
+	(nombreObra "Los milagros de nuestro senor Batman")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class20031] of  Caracteristica
+)
+
+([Ontology_Class20032] of  Sala
+
+	(nombreSala "Sala Renacimiento"))
+
+([Ontology_Class20033] of  Sala
+
+	(nombreSala "Sala Indie"))
+
+([Ontology_Class20034] of  Sala
+
+	(nombreSala "Sala Barroca"))
+
+([Ontology_Class20035] of  Sala
+
+	(nombreSala "Sala Van Gogh"))
+
+([Ontology_Class20036] of  Sala
+
+	(nombreSala "Sala Espanola"))
+
+([Ontology_Class3] of  Sala
+
+	(nombreSala "Sala Principal"))
+
+([Ontology_Class30000] of  Autor
+
+	(nombre "Francisco de Goya")
+	(relevanciaAutor 8))
+
+([Ontology_Class30001] of  Caracteristica
+)
+
+([Ontology_Class30002] of  Caracteristica
+)
+
+([Ontology_Class30003] of  Sala
+
+	(nombreSala "Sala Medieval"))
+
+([Ontology_Class30004] of  Autor
+
+	(nombre "Jheronimus van Aken (El Bosco)")
+	(relevanciaAutor 7))
+
+([Ontology_Class30005] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class30004])
+	(caracteristicas
+		[Ontology_Class70015]
+		[Ontology_Class70011]
+		[Ontology_Class70029])
+	(dimensiones_m2 8.55)
+	(nombreObra "El Jardin de las Delicias")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class30003]))
+
+([Ontology_Class30006] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class30004])
+	(caracteristicas
+		[Ontology_Class70015]
+		[Ontology_Class70011]
+		[Ontology_Class70029])
+	(dimensiones_m2 1.666)
+	(nombreObra "Mesa de los pecados capitales")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class30003]))
+
+([Ontology_Class40000] of  Caracteristica
+)
+
+([Ontology_Class40001] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class30000])
+	(caracteristicas
+		[Ontology_Class70018]
+		[Ontology_Class70008]
+		[Ontology_Class70025])
+	(dimensiones_m2 1.843)
+	(nombreObra "La maja desnuda")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20036]))
+
+([Ontology_Class40002] of  Caracteristica
+)
+
+([Ontology_Class40003] of  Caracteristica
+)
+
+([Ontology_Class40004] of  Caracteristica
+)
+
+([Ontology_Class40006] of  Caracteristica
+)
+
+([Ontology_Class40007] of  Caracteristica
+)
+
+([Ontology_Class40008] of  Caracteristica
+)
+
+([Ontology_Class40009] of  Caracteristica
+)
+
+([Ontology_Class40010] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class10021])
+	(caracteristicas
+		[Ontology_Class70029]
+		[Ontology_Class70024])
+	(dimensiones_m2 15.8)
+	(nombreObra "Ronda de noche")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class40012] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20007])
+	(caracteristicas
+		[Ontology_Class70019]
+		[Ontology_Class70029])
+	(dimensiones_m2 0.935)
+	(nombreObra "Los comedores de patatas")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20035]))
+
+([Ontology_Class40013] of  Caracteristica
+)
+
+([Ontology_Class40014] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class20007])
+	(caracteristicas
+		[Ontology_Class70019]
+		[Ontology_Class70008]
+		[Ontology_Class70029])
+	(dimensiones_m2 0.53)
+	(nombreObra "Retrato de Joseph Roulin")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20035]))
+
+([Ontology_Class40017] of  Autor
+
+	(nombre "Maestro de Tahull")
+	(relevanciaAutor 4))
+
+([Ontology_Class40018] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class40017])
+	(caracteristicas
+		[Ontology_Class70014]
+		[Ontology_Class70011]
+		[Ontology_Class70025])
+	(dimensiones_m2 2.232)
+	(nombreObra "Abside de san Climente de Tahull")
+	(relevanciaObra 4)
+	(salaObra [Ontology_Class30003]))
+
+([Ontology_Class40019] of  Caracteristica
+)
+
+([Ontology_Class40020] of  Autor
+
+	(nombre "Jacques Louis David")
+	(relevanciaAutor 6))
+
+([Ontology_Class40021] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class40020])
+	(caracteristicas
+		[Ontology_Class70017]
+		[Ontology_Class70012]
+		[Ontology_Class70030])
+	(dimensiones_m2 14.0)
+	(nombreObra "Juramento de los Horacios")
+	(relevanciaObra 6)
+	(salaObra [Ontology_Class40023]))
+
+([Ontology_Class40022] of  Caracteristica
+)
+
+([Ontology_Class40023] of  Sala
+
+	(nombreSala "Sala de Arte Moderno"))
+
+([Ontology_Class50000] of  Autor
+
+	(nombre "Rubens")
+	(relevanciaAutor 8))
+
+([Ontology_Class50001] of  Caracteristica
+)
+
+([Ontology_Class50002] of  Caracteristica
+)
+
+([Ontology_Class50003] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class30000])
+	(caracteristicas
+		[Ontology_Class70018]
+		[Ontology_Class70013]
+		[Ontology_Class70025])
+	(dimensiones_m2 1.16)
+	(nombreObra "Saturno devorando a un hijo")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20036]))
+
+([Ontology_Class50004] of  Caracteristica
+)
+
+([Ontology_Class50005] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class30000])
+	(caracteristicas
+		[Ontology_Class70018]
+		[Ontology_Class70008]
+		[Ontology_Class70025])
+	(dimensiones_m2 1.78)
+	(nombreObra "La maja vestida")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class40023]))
+
+([Ontology_Class50006] of  Caracteristica
+)
+
+([Ontology_Class50007] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class10021])
+	(caracteristicas
+		[Ontology_Class70011]
+		[Ontology_Class70029]
+		[Ontology_Class70024])
+	(dimensiones_m2 0.054)
+	(nombreObra "Cabeza de Cristo")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class50008] of  Caracteristica
+)
+
+([Ontology_Class50010] of  Autor
+
+	(nombre "Claude Monet")
+	(relevanciaAutor 7))
+
+([Ontology_Class50011] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class50010])
+	(caracteristicas
+		[Ontology_Class70019]
+		[Ontology_Class70030]
+		[Ontology_Class70009])
+	(dimensiones_m2 0.325)
+	(nombreObra "Poppy Field")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class40023]))
+
+([Ontology_Class50012] of  Caracteristica
+)
+
+([Ontology_Class60000] of  Autor
+
+	(nombre "Gustav Klimt")
+	(relevanciaAutor 6))
+
+([Ontology_Class60003] of  Caracteristica
+)
+
+([Ontology_Class60004] of  Autor
+
+	(nombre "Andy Warhol")
+	(relevanciaAutor 6))
+
+([Ontology_Class60005] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class60004])
+	(caracteristicas
+		[Ontology_Class70022]
+		[Ontology_Class70028])
+	(dimensiones_m2 0.206)
+	(nombreObra "Latas de sopa Campbell")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20033]))
+
+([Ontology_Class60006] of  Caracteristica
+)
+
+([Ontology_Class70000] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class50000])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70008]
+		[Ontology_Class70029])
+	(dimensiones_m2 2.43)
+	(nombreObra "Autorretrato de Rubens con su esposa")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class70001] of  Autor
+
+	(nombre "Vasili Kandinski")
+	(relevanciaAutor 7))
+
+([Ontology_Class70002] of  Autor
+
+	(nombre "Joan Miro")
+	(relevanciaAutor 7))
+
+([Ontology_Class70008] of  Tematica
+
+	(tema Retrato))
+
+([Ontology_Class70009] of  Tematica
+
+	(tema Paisaje))
+
+([Ontology_Class70010] of  Tematica
+
+	(tema NaturalezaMuerta))
+
+([Ontology_Class70011] of  Tematica
+
+	(tema Religion))
+
+([Ontology_Class70012] of  Tematica
+
+	(tema Historia))
+
+([Ontology_Class70013] of  Tematica
+
+	(tema Mitologia))
+
+([Ontology_Class70014] of  Epoca
+
+	(nombreEpoca Romanico))
+
+([Ontology_Class70015] of  Epoca
+
+	(nombreEpoca Gotico))
+
+([Ontology_Class70016] of  Epoca
+
+	(nombreEpoca Renacimiento))
+
+([Ontology_Class70017] of  Epoca
+
+	(nombreEpoca Neoclasico))
+
+([Ontology_Class70018] of  Epoca
+
+	(nombreEpoca Romanticismo))
+
+([Ontology_Class70019] of  Epoca
+
+	(nombreEpoca Impresionismo))
+
+([Ontology_Class70020] of  Epoca
+
+	(nombreEpoca Realismo))
+
+([Ontology_Class70021] of  Epoca
+
+	(nombreEpoca Cubismo))
+
+([Ontology_Class70022] of  Epoca
+
+	(nombreEpoca PopArt))
+
+([Ontology_Class70024] of  Epoca
+
+	(nombreEpoca Barroco))
+
+([Ontology_Class70025] of  ZonaGeografica
+
+	(zonaGeografica Espana))
+
+([Ontology_Class70026] of  ZonaGeografica
+
+	(zonaGeografica Italia))
+
+([Ontology_Class70027] of  ZonaGeografica
+
+	(zonaGeografica Noruega))
+
+([Ontology_Class70028] of  ZonaGeografica
+
+	(zonaGeografica EstadosUnidos))
+
+([Ontology_Class70029] of  ZonaGeografica
+
+	(zonaGeografica Holanda))
+
+([Ontology_Class70030] of  ZonaGeografica
+
+	(zonaGeografica Francia))
+
+([Ontology_Class70031] of  Epoca
+
+	(nombreEpoca Expresionismo))
+
+([Ontology_Class70032] of  Epoca
+
+	(nombreEpoca Surrealismo))
+
+([Ontology_Class80000] of  ZonaGeografica
+
+	(zonaGeografica Rusia))
+
+([Ontology_Class80001] of  Autor
+
+	(nombre "Frida Kahlo")
+	(relevanciaAutor 5))
+
+([Ontology_Class80003] of  Autor
+
+	(nombre "Francisco de Zurbaran")
+	(relevanciaAutor 6))
+
+([Ontology_Class80004] of  Autor
+
+	(nombre "Caravaggio")
+	(relevanciaAutor 8))
+
+([Ontology_Class80005] of  Autor
+
+	(nombre "Tiziano")
+	(relevanciaAutor 8))
+
+([Ontology_Class80006] of  Autor
+
+	(nombre "Rafael Sanzio")
+	(relevanciaAutor 7))
+
+([Ontology_Class80007] of  Autor
+
+	(nombre "Tintoretto")
+	(relevanciaAutor 7))
+
+([Ontology_Class80008] of  Autor
+
+	(nombre "Alberto Durero")
+	(relevanciaAutor 6))
+
+([Ontology_Class80009] of  Autor
+
+	(nombre "Sandro Botticelli")
+	(relevanciaAutor 8))
+
+([Ontology_Class80011] of  Autor
+
+	(nombre "El Greco")
+	(relevanciaAutor 8))
+
+([Ontology_Class80012] of  Autor
+
+	(nombre "Henri Matisse")
+	(relevanciaAutor 6))
+
+([Ontology_Class80013] of  Autor
+
+	(nombre "Paul Cezanne")
+	(relevanciaAutor 6))
+
+([Ontology_Class80014] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80008])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class80015]
+		[Ontology_Class80022])
+	(dimensiones_m2 0.0625)
+	(nombreObra "El Rinoceronte")
+	(relevanciaObra 6)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class80015] of  ZonaGeografica
+
+	(zonaGeografica Alemania))
+
+([Ontology_Class80017] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80004])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70013]
+		[Ontology_Class70026])
+	(dimensiones_m2 1.0)
+	(nombreObra "David vencedor de Goliat")
+	(relevanciaObra 5)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class80018] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class80004])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70026]
+		[Ontology_Class70011])
+	(dimensiones_m2 9.0)
+	(nombreObra "Muerte de la virgen")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class80019] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80011])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70011]
+		[Ontology_Class70025])
+	(dimensiones_m2 3.5)
+	(nombreObra "La resurreccion de cristo")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class80020] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80011])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70009]
+		[Ontology_Class70025])
+	(dimensiones_m2 1.3)
+	(nombreObra "Vista de Toledo")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20036]))
+
+([Ontology_Class80021] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80011])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70012]
+		[Ontology_Class70025])
+	(dimensiones_m2 17.28)
+	(nombreObra "El entierro del conde de Orgaz")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20036]))
+
+([Ontology_Class80022] of  Tematica
+
+	(tema Animales))
+
+([Ontology_Class80023] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80003])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70011]
+		[Ontology_Class70025])
+	(dimensiones_m2 4.87)
+	(nombreObra "Cristo en la cruz")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20036]))
+
+([Ontology_Class80024] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80003])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70011]
+		[Ontology_Class70025])
+	(dimensiones_m2 4.23)
+	(nombreObra "Inmaculada")
+	(relevanciaObra 6)
+	(salaObra [Ontology_Class20036]))
+
+([Ontology_Class80025] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class80001])
+	(caracteristicas
+		[Ontology_Class70032]
+		[Ontology_Class70008]
+		[Ontology_Class80026])
+	(dimensiones_m2 3.0)
+	(nombreObra "Las dos Fridas")
+	(relevanciaObra 5)
+	(salaObra [Ontology_Class20033]))
+
+([Ontology_Class80026] of  ZonaGeografica
+
+	(zonaGeografica Mexico))
+
+([Ontology_Class80027] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class60000])
+	(caracteristicas
+		[Ontology_Class80029]
+		[Ontology_Class80031])
+	(dimensiones_m2 3.24)
+	(nombreObra "El beso")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20033]))
+
+([Ontology_Class80029] of  ZonaGeografica
+
+	(zonaGeografica Austria))
+
+([Ontology_Class80031] of  Epoca
+
+	(nombreEpoca Simbolismo))
+
+([Ontology_Class80032] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class60000])
+	(caracteristicas
+		[Ontology_Class80031]
+		[Ontology_Class80029])
+	(dimensiones_m2 73.1)
+	(nombreObra "Friso de Bethooven")
+	(relevanciaObra 5)
+	(salaObra [Ontology_Class20033]))
+
+([Ontology_Class80033] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class80012])
+	(caracteristicas [Ontology_Class70030])
+	(dimensiones_m2 10.1)
+	(nombreObra "La Danza")
+	(relevanciaObra 5)
+	(salaObra [Ontology_Class20033]))
+
+([Ontology_Class80034] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class70002])
+	(caracteristicas
+		[Ontology_Class70032]
+		[Ontology_Class70025]
+		[Ontology_Class70012])
+	(dimensiones_m2 0.56)
+	(nombreObra "El Carnaval de Arlequin")
+	(relevanciaObra 5)
+	(salaObra [Ontology_Class20036]))
+
+([Ontology_Class80035] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80009])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70013])
+	(dimensiones_m2 4.76)
+	(nombreObra "El nacimiento de Venus")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class80036] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80006])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70013]
+		[Ontology_Class70026])
+	(dimensiones_m2 6.7)
+	(nombreObra "El triunfo de Galatea")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class80037] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class80005])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70011]
+		[Ontology_Class70026])
+	(dimensiones_m2 2.4)
+	(nombreObra "El entierro de Cristo")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class80038] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80007])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70011]
+		[Ontology_Class70026])
+	(dimensiones_m2 20.7)
+	(nombreObra "La ultima cena")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class80039] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class80008])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70013]
+		[Ontology_Class80015])
+	(dimensiones_m2 3.2)
+	(nombreObra "Adan y Eva")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class80040] of  Autor
+
+	(nombre "Hans Holbein")
+	(relevanciaAutor 6))
+
+([Ontology_Class80041] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80040])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70008]
+		[Ontology_Class80015])
+	(dimensiones_m2 0.11)
+	(nombreObra "Retrato de Erasmo de Rotterdam")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class80042] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80040])
+	(caracteristicas
+		[Ontology_Class70016]
+		[Ontology_Class70008]
+		[Ontology_Class80015])
+	(dimensiones_m2 0.056)
+	(nombreObra "Retrato de Enrique VIII")
+	(relevanciaObra 6)
+	(salaObra [Ontology_Class20032]))
+
+([Ontology_Class80043] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80013])
+	(caracteristicas
+		[Ontology_Class70019]
+		[Ontology_Class70008]
+		[Ontology_Class70030])
+	(dimensiones_m2 0.52)
+	(nombreObra "La montana de Sainte-Victorie")
+	(relevanciaObra 5)
+	(salaObra [Ontology_Class40023]))
+
+([Ontology_Class80044] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class80004])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70011]
+		[Ontology_Class70026])
+	(dimensiones_m2 4.0)
+	(nombreObra "La crucifixion de San Pedro")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class80045] of  Autor
+
+	(nombre "Johannes Vermeer")
+	(relevanciaAutor 6))
+
+([Ontology_Class80046] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80045])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70011]
+		[Ontology_Class70029])
+	(dimensiones_m2 2.24)
+	(nombreObra "Cristo en la casa de Marta y Maria")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class80047] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class40020])
+	(caracteristicas
+		[Ontology_Class70017]
+		[Ontology_Class70012]
+		[Ontology_Class70030])
+	(dimensiones_m2 5.7)
+	(nombreObra "Napoleon cruzando los Alpes")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class40023]))
+
+([Ontology_Class80048] of  Autor
+
+	(nombre "Eugene Delacroix")
+	(relevanciaAutor 7))
+
+([Ontology_Class80049] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class80048])
+	(caracteristicas
+		[Ontology_Class70018]
+		[Ontology_Class70012]
+		[Ontology_Class70030])
+	(dimensiones_m2 8.5)
+	(nombreObra "La Libertad guiando al Pueblo")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class40023]))
+
+([Ontology_Class80050] of  Autor
+
+	(nombre "Jean Francois Millet")
+	(relevanciaAutor 7))
+
+([Ontology_Class80051] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class80050])
+	(caracteristicas
+		[Ontology_Class70020]
+		[Ontology_Class70030])
+	(dimensiones_m2 0.363)
+	(nombreObra "El Angelus")
+	(relevanciaObra 6)
+	(salaObra [Ontology_Class40023]))
+
+([Ontology_Class80052] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class50010])
+	(caracteristicas
+		[Ontology_Class70019]
+		[Ontology_Class70009]
+		[Ontology_Class70030])
+	(dimensiones_m2 13.2)
+	(nombreObra "Los Nenufares")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class40023]))
+
+([Ontology_Class90001] of  Obra
+
+	(aptaNinos FALSE)
+	(autor [Ontology_Class50000])
+	(caracteristicas
+		[Ontology_Class70024]
+		[Ontology_Class70013]
+		[Ontology_Class70029])
+	(dimensiones_m2 4.0)
+	(nombreObra "Las tres Gracias")
+	(relevanciaObra 8)
+	(salaObra [Ontology_Class20034]))
+
+([Ontology_Class90002] of  Obra
+
+	(aptaNinos TRUE)
+	(autor [Ontology_Class70001])
+	(caracteristicas
+		[Ontology_Class70031]
+		[Ontology_Class80000])
+	(dimensiones_m2 6.0)
+	(nombreObra "Composicion VII")
+	(relevanciaObra 7)
+	(salaObra [Ontology_Class40023]))
